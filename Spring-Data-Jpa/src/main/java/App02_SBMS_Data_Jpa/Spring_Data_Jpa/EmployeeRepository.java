@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
-    public Employee findByename(String ename);
+    public Employee findByename(String ename1);
     public Employee findByeaddr(String eaddr);
     public List<Employee> findByEnameAndEsal(String ename, String esal);
 
